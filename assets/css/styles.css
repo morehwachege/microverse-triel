@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    width: 100%;
+    background-color: maroon;
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#welcome-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:768px){
+    #project{
+        width: 150px;
+        height: 150px;
+    }
+}
+/* ul li{
+
+} */
